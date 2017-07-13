@@ -8,4 +8,4 @@ MAINTAINER Chris Weyl <cweyl@alumni.drew.edu>
 RUN pip install --no-cache-dir proselint
 COPY do-proselint.sh /bin/do-proselint.sh
 
-ENTRYPOINT [ "do-proselint.sh" ]
+CMD [ "proselint" ]
